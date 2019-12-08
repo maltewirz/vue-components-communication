@@ -3,7 +3,8 @@
         <h1>The User Component</h1>
         <p>I'm an awesome User!</p>
         <button @click="changeName">Change my Name</button>
-        <p>Name in parent is {{name}}</p>
+        <p>Name in parent is {{ name }}</p>
+        <p>Age in parent is {{ age }}</p>
         <hr>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
